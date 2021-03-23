@@ -1,0 +1,38 @@
+base {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slide {
+    margin: 0 10px 0;
+}
+
+.slick-slide:not(.slick-center) {
+    opacity: 0.5;
+}
+
+.slick-arrow {
+    z-index: 20;
+}
+
+.slide-arrow {
+    position: absolute;
+    top: 40%;
+}
+
+.prev-arrow {
+    left: 30px;
+}
+
+.next-arrow {
+    right: 30px;
+}

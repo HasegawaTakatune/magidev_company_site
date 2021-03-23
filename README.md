@@ -60,3 +60,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## 参照  
+[【Bootstrap】Navbarの使い方・カスタマイズ方法を徹底解説](https://www.sejuku.net/blog/75948)
+[【Slick】よく実装するスライダーのテンプレ](https://qiita.com/shintarou-akao/items/4bbc5e8d5a5c818ac52d)  
+[Slick](http://kenwheeler.github.io/slick/)  
+[Slick github](https://github.com/kenwheeler/slick/)
