@@ -14,32 +14,8 @@
         <link rel="stylesheet" href="css/slick.css" type="text/css">
 
         <title>魔法デビ</title>
-        <style type="text/css">
-            * {
-              margin: 0;
-              padding: 0;
-            }
-            .slider {
-              width: 50%;
-              margin: 0 auto;
-            }
-            .slick-slide img {
-              width: 100%;
-            }
-            .slick-slide {
-              margin: 0;
-            }
-            .slick-slide:not(.slick-center) {
-              opacity: 0.5;
-            }
-            .header_slider .thumb {
-              width: 40%;
-              margin: 0 auto;
-            }
-            .header_slider .thumb li {
-              margin-right: 20px;
-            }
-        </style>
+        <link rel="stylesheet" href="css/slider.css" type="text/css">
+        <link rel="stylesheet" href="css/common.css" type="text/css">
     </head>
 
     <body>

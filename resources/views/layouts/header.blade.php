@@ -7,28 +7,30 @@
         <ul class="navbar-nav">
 
             @php
-                $selected = isset($selected)? $selected : 'NONE';
+            // 現在のページを設定
+            $nowPage = isset($nowPage)? $nowPage : 'NONE';
             @endphp
 
-            @if (strcasecmp($selected, 'HOME') == 0)
+            {{-- 選択したページのボタンをアクティブ状態にする。 --}}
+            @if (strcasecmp($nowPage, 'HOME') == 0)
             <li class="nav-item active"><a class="nav-link" href="#">ホーム</a></li>
             @else
             <li class="nav-item"><a class="nav-link" href="#">ホーム</a></li>
             @endif
 
-            @if (strcasecmp($selected, 'PHILOSOPHY') == 0)
+            @if (strcasecmp($nowPage, 'PHILOSOPHY') == 0)
             <li class="nav-item active"><a class="nav-link" href="#">代表理念</a></li>
             @else
             <li class="nav-item"><a class="nav-link" href="#">代表理念</a></li>
             @endif
 
-            @if ($selected == 'Business')
+            @if ($nowPage == 'Business')
             <li class="nav-item active"><a class="nav-link" href="#">事業内容</a></li>
             @else
             <li class="nav-item"><a class="nav-link" href="#">事業内容</a></li>
             @endif
 
-            @if ($selected == 'Access')
+            @if ($nowPage == 'Access')
             <li class="nav-item active"><a class="nav-link" href="#">アクセス</a></li>
             @else
             <li class="nav-item"><a class="nav-link" href="#">アクセス</a></li>

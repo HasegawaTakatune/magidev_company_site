@@ -1,0 +1,18 @@
+.app-contents-flame {
+    max-width: 400px;
+    border: solid 1px #ff773e;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.app-contents-flame-header {
+    width: 90%;
+    background: #ff773e;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px 15px 0px;
+    font-size: 25px;
+    margin: auto;
+}
+
+.app-contents-item  li{
+    display: inline-block;
+}

@@ -18,8 +18,6 @@
     height: 20px;
 
     /* 元のcontentプロパティの値だとfont-sizeを変更した際に位置がずれてしまうので値を変更 */
-    /* content: '•'; */
-    /* content: '●'; */
     text-align: center;
 
     opacity: .25;
@@ -32,4 +30,7 @@
 {
     opacity: .75;
     color: green; /* active時の色を変更 */
+}
+.thumb {
+    height: 30%;
 }
